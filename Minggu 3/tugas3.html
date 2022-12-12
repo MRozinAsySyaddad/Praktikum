@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Tugas 3 - Praktikum Pemrograman WEB</title>
+	<link rel="stylesheet" type="text/css" href="tugas3.css">
+	<link rel="stylesheet" type="text/css" href="tugas3-responsive.css">
+</head>
+
+<body>
+	
+	<header>
+	<div class="profil">
+		<div class="foto"></div>
+		<div>
+			<h1>Hai, saya <span>M Rozin A</span></h1>
+			<p>Mahasiswa Teknik Informatika 2020 - ITERA</p>
+		</div>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#ts" title="tentang saya">tentang saya</a></li>
+			<li><a href="#pk" title="pengalaman kerja">pengalaman kerja</a></li>
+			<li><a href="#hs" title="hubungi saya">hubungi saya</a></li>
+		</ul>
+	</nav>
+	</header>
+	<main>
+		<h2 id="ts">tentang saya</h2>
+		<div class="isi">
+		<p>Saya Muhammad Rozin Asy Syaddad, lahir di Probolinggo 14 Januari pada tahun 2002. Saat ini, merupakan salah satu mahasiswa aktif Prodi Teknik Informatika di Institut Teknologi Sumatera.</p>
+		<figure>
+			<iframe width="415" height="243" src="https://www.youtube.com/embed/PgNBxbh_cBE" title="Tubes PKS II | Program C++ Pada Bidang Fisika (Massa Jenis Benda) dan Bidang Matematika (Turunan)" frameborder="0"></iframe>
+			<figcaption>video saya</figcaption>
+		</figure>
+		</div>
+		<h2 id="pk">pengalaman kerja</h2>
+		<div class="isi">
+		<table>
+			<thead>
+				<tr>
+					<th rowspan="2">no</th>
+					<th rowspan="2">posisi</th>
+					<th rowspan="2">perusahaan</th>
+					<th colspan="2">waktu</th>
+				</tr>
+				<tr>
+					<th>mulai</th>
+					<th>selesai</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Asisten Praktikum Alpro I</td>
+					<td>ITERA</td>
+					<td>2021</td>
+					<td>2021</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Asisten Praktikum Alpro II</td>
+					<td>ITERA</td>
+					<td>2022</td>
+					<td>2022</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		<h2 id="hs">hubungi saya</h2>
+		<div class="isi">
+		<form>
+			<label for="nama">Nama:</label>
+			<input type="text" id="nama" name="nama">
+			<section>
+				<p>Sudah nonton film saya?</p>
+				<input type="radio" id="y" name="yn" value="sudah">
+				<label for="y">sudah</label>
+				<input type="radio" id="n" name="yn" value="belum">
+				<label for="n">belum</label>
+			</section>
+			<section>
+				<p>Pilih yaa :</p>
+				<input type="checkbox" id="ini" name="ini" value="ini">
+				<label for="ini">ini</label>
+				<input type="checkbox" id="itu" name="itu" value="itu">
+				<label for="itu">itu</label>
+				<input type="checkbox" id="anu" name="anu" value="anu">
+				<label for="anu">anu</label>
+			</section>
+			<button type="submit">Kirim</button>
+		</form>
+		</div>
+	</main>
+	<footer>
+		<p>Rozkoy, HAHAHAHA</p>
+	</footer>
+
+</body>
+</html>
