@@ -1,0 +1,159 @@
+:root {
+	--bg: #E9ECE8ff;
+	--color-items: #0B1B06ff;
+}
+.darkTheme {
+	--bg: #462F1Aff;
+	--color-items: #E9ECE8ff;
+}
+
+* {
+	font-family: "Trebuchet MS", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header > .profil {
+	background-color: var(--bg);
+	color: var(--color-items);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+}
+header > .profil > .foto {
+	background-image: url('./foto.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	height: 250px;
+	margin: 20px;
+	width: 250px;
+}
+header > .profil > div > h1 > span {
+	color: #8C7F5Bff;
+}
+header > .profil > div > p {
+	color: #ADAA94ff;
+}
+header > nav > ul {
+	background-color: #8C7F5Bff;
+	display: flex;
+	justify-content: right;
+	list-style: none;
+}
+header > nav > ul > li {
+	margin: 0 10px;
+}
+header > nav > ul > li > a {
+	display: inline-block;
+	color: #E9ECE8ff;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+header > nav > ul > li > a:hover {
+	color: #8C7F5Bff;
+	background-color: #fff;
+}
+
+main {
+	background-color: var(--bg);
+	padding: 50px 0 25px
+}
+main > h2 {
+	background-color: #8C7F5Bff;
+	color: var(--color-items);
+	display: block;
+	width: 160px;
+	margin: 10px 0;
+	padding: 10px 0 10px 5px;
+	text-transform: capitalize;
+}
+main > div.isi {
+	margin: 0 50px;
+	color: var(--color-items);
+}
+main > div.isi > figure {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+main > div.isi > figure > iframe {
+	border-radius: 5%;
+}
+main > div.isi > figure > figcaption {
+	margin: 10px 0;
+}
+main > div.isi > table {
+	border-collapse: collapse;
+	color: var(--color-items);
+	margin: auto;
+	text-align: center;
+}
+main > div.isi > table * {
+	border: 2px solid var(--color-items);
+	padding: 5px;
+}
+main > div.isi > form {
+	box-sizing: border-box;
+	background-color: #8C7F5Bff;
+	border-radius: 5%;
+	margin: 0 auto;
+	padding: 25px;
+	width: 300px;
+}
+main > div.isi > form > input#nama {
+	background-color: #E9ECE8ff;
+	border: none;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 0 5px;
+	width: 250px;
+}
+main > div.isi > form > section {
+	margin: 0 0 5px;
+}
+main > div.isi > form > button {
+	background-color: #E9ECE8ff;
+	border: none;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+}
+main > div.isi > form > button:hover {
+	background-color: #ADAA94ff;
+	color: #E9ECE8ff;
+}
+
+footer {
+	background-color: #777A59ff;
+	color: #E9ECE8ff;
+	padding: 10px 0;
+	font-size: 8pt;
+	text-align: center;
+}
+
+
+/* 
+--gold-fusion: #777A59ff;
+--gold-fusion-2: #8C7F5Bff;
+--bone: #DBCDB3ff;
+--dark-olive-green: #636948ff;
+--grullo: #ADAA94ff;
+--cafe-noir: #462F1Aff;
+--pine-tree: #14200Bff;
+--platinum: #E9ECE8ff; 
+--kombu-green: #334021ff;
+--dark-jungle-green: #0B1B06ff;
+
+garamond, serif
+lucida handwriting, serif
+malgun gothic, sans-serif
+mv boli, sans-serif
+segoe print, serif
+trebuchet MS, sans-serif
+*/

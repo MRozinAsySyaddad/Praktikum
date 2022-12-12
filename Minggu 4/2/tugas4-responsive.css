@@ -1,0 +1,15 @@
+header > .profil {
+	flex-wrap: wrap;
+}
+main > div.isi {
+	display: flex;
+	flex-wrap: wrap;
+}
+main > div.isi > figure {
+	margin: auto;
+}
+@media (max-width: 550px) {
+	main > div.isi > figure > iframe {
+		width: 120%;
+	}
+}

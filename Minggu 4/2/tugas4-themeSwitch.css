@@ -1,0 +1,44 @@
+#themeSwitch {
+	appearance: none;
+	background-color: white;
+	border-radius: 22px;
+	cursor: pointer;
+	height: 40px;
+	outline: none;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	transition: .5s linear;
+	width: 80px;
+}
+#themeSwitch::before {
+	background-color: #8C7F5Bff;
+	border-radius: 35px;
+	content: "";
+	cursor: pointer;
+	height: 34px;
+	position: absolute;
+	right: 38px;
+	top: 3px;
+	width: 40px;
+}
+#themeSwitch:checked::before {
+	background-color: #E9ECE8ff;  
+	left: 38px;
+} 
+#themeSwitch:checked {
+	background-color: #8C7F5Bff;
+}
+
+/* 
+--gold-fusion: #777A59ff;
+--gold-fusion-2: #8C7F5Bff;
+--bone: #DBCDB3ff;
+--dark-olive-green: #636948ff;
+--grullo: #ADAA94ff;
+--cafe-noir: #462F1Aff;
+--pine-tree: #14200Bff;
+--platinum: #E9ECE8ff; 
+--kombu-green: #334021ff;
+--dark-jungle-green: #0B1B06ff;
+*/
