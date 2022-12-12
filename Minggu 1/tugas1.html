@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 1 - Praktikum Pemrograman WEB</title>
+</head>
+<body>
+
+	<header>
+		<img src="foto.jpg" alt="FOTO" title="Foto Rozin" width="100px">
+		<h1>Hay saya Rozin.</h1>
+		<p>seorang mahasiswa</p>
+		<ul>
+			<li><a href="#ts" title="tentang saya">tentang saya</a></li>
+			<li><a href="#pk" title="pengalaman kerja">pengalaman kerja</a></li>
+			<li><a href="#hs" title="hubungi saya">hubungi saya</a></li>
+		</ul>
+	</header>
+	<main>
+		<h2 id="ts">tentang saya</h2>
+		<p>Saya Muhammad Rozin Asy Syaddad, lahir di Probolinggo 14 Januari pada tahun 2002. Saat ini, merupakan salah satu mahasiswa aktif Prodi Teknik Informatika di Institut Teknologi Sumatera.</p>
+		<figure>
+			<frame>
+				<iframe width="415" height="243" src="https://www.youtube.com/embed/PgNBxbh_cBE" title="Tubes PKS II | Program C++ Pada Bidang Fisika (Massa Jenis Benda) dan Bidang Matematika (Turunan)" frameborder="0"></iframe>
+			</frame>
+			<figcaption>video saya</figcaption>
+		</figure>
+		<h2 id="pk">pengalaman kerja</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th rowspan="2">no</th>
+					<th rowspan="2">posisi</th>
+					<th rowspan="2">perusahaan</th>
+					<th colspan="2">waktu</th>
+				</tr>
+				<tr>
+					<th>mulai</th>
+					<th>selesai</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Asisten Praktikum Alpro I</td>
+					<td>ITERA</td>
+					<td>2021</td>
+					<td>2021</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Asisten Praktikum Alpro II</td>
+					<td>ITERA</td>
+					<td>2022</td>
+					<td>2022</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2 id="hs">hubungi saya</h2>
+		<form action="tugas1_submit" method="get" accept-charset="utf-8">
+			<label>nama:<input type="text" name="nama"></label>
+			<p>sudah nonton film saya?</p>
+			<section>
+				<label><input type="radio" name="yn" value="sudah">sudah</label>
+<br>
+				<label><input type="radio" name="yn" value="belum">belum</label>
+			</section>
+<br>
+			<section>
+				<label><input type="checkbox" name="ini" value="ini">ini</label>
+<br>
+				<label><input type="checkbox" name="itu" value="itu">itu</label>
+<br>
+				<label><input type="checkbox" name="anu" value="anu">anu</label>
+			</section>
+			<button type="submit">kirim</button>
+		</form>
+	</main>
+	<footer>
+		<p>ini akhir</p>
+	</footer>
+
+</body>
+</html>
